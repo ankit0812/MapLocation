@@ -21,7 +21,8 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *labelAltitude;
 
-//- (IBAction)setMap:(id)sender;
+
+- (IBAction)setMap:(id)sender;
 
 
 @end

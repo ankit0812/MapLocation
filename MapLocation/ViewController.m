@@ -55,27 +55,28 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
-
-/*- (IBAction)setMap:(id)sender {
+-(IBAction)setMap:(id)sender {
     
     switch (((UISegmentedControl *)sender).selectedSegmentIndex)
     {
         case 0:
-        _mapView.mapType=MKMapTypeStandard;
-        break;
+            _mapView.mapType=MKMapTypeStandard;
+            break;
             
         case 1:
-        _mapView.mapType=MKMapTypeSatellite;
-        break;
-
+            _mapView.mapType=MKMapTypeSatellite;
+            break;
+            
         case 2:
-        _mapView.mapType=MKMapTypeHybrid;
-        break;
-
+            _mapView.mapType=MKMapTypeHybrid;
+            break;
+            
             
         default:
             break;
     }
-}*/
+}
+
 @end
